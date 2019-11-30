@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>image editor</title>
+</head>
+<body>
+    <div id="image">
+        <img src="girl1.jpg" alt="girl picture" id="img">
+    </div>
+    <div id="range">
+        <label for="brightness">brightness: </label>
+        <input type="range" name="brightness" id="brightness" onchange="fun(1)" min="0" max="100" value="100">
+        <label for="brightness">saturation: </label>
+        <input type="range" name="saturate" id="saturate" onchange="fun(2)"  min="0" max="100" value="100">
+        <label for="brightness">blur: </label>
+        <input type="range" name="blur" id="blur" onchange="fun(3)"  min="0" max="10" value="0">
+        <label for="brightness">contrast: </label>
+        <input type="range" name="contrast" id="contrast" onchange="fun(4)"  min="100" max="300" value="100">
+        <label for="brightness">height: </label>
+        <input type="range" name="height" id="height" onchange="fun(5)" min="1" max="100" value="100">
+        <label for="brightness">width: </label>
+        <input type="range" name="width" id="width" onchange="fun(6)" min="1" max="100" value="100">
+        <label for="brightness">border: </label>
+        <input type="range" name="border" id="border" onchange="fun(7)"  min="1" max="100" value="1">
+        <label for="brightness">roundness: </label>
+        <input type="range" name="borderradius" id="borderradius" onchange="fun(8)"  min="1" max="50" value="1"> 
+    </div>
+</body>
+</html>
